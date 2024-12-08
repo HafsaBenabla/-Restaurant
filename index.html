@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaafran - Restaurant Marocain Authentique</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-brand">زعفران Zaafran</div>
+        <ul class="nav-links">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Zaafran</h1>
+            <p>Savourez l'authentique cuisine marocaine</p>
+            <a href="#menu" class="btn">Découvrir notre menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <h2>Notre Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXfkDTbY3EKFJC4Rv89sU9PPfdWVBtPfvg5g&s"
+                    alt="Tajine">
+                <h3>Tajine d'Agneau aux Pruneaux</h3>
+                <p>Agneau mijoté avec pruneaux, amandes grillées et épices traditionnelles</p>
+                <span class="price">240 DH</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGw2zJOS0YDvKY2EvAK2yIMt9iYa7qO4R_vg&s"
+                    alt="Couscous">
+                <h3>Couscous Royal</h3>
+                <p>Couscous aux sept légumes, agneau, poulet et merguez</p>
+                <span class="price">260 DH</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://img.cuisineaz.com/1024x768/2013/12/20/i60194-photo-de-pastilla-au-poulet.jpeg"
+                    alt="Pastilla">
+                <h3>Pastilla au Poulet</h3>
+                <p>Feuilles de brick garnies de poulet, amandes et œufs, parfumée à la cannelle</p>
+                <span class="price">220 DH</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="https://www.lesiteinfo.com/wp-content/uploads/2016/12/restaurant.jpg" alt="Notre Restaurant">
+            </div>
+            <div class="about-text">
+                <h2>Notre Histoire</h2>
+                <p>Zaafran vous invite à un voyage culinaire au cœur du Maroc. Notre chef, originaire de Fès, perpétue
+                    les traditions culinaires ancestrales en utilisant des épices soigneusement sélectionnées et des
+                    recettes transmises de génération en génération. Dans une ambiance chaleureuse ornée de motifs
+                    traditionnels et de lanternes marocaines, nous vous offrons une expérience authentique des saveurs
+                    du Maroc.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Réservation</h2>
+        <div class="contact-content">
+            <form class="contact-form">
+                <input type="text" placeholder="Votre nom" required>
+                <input type="email" placeholder="Votre email" required>
+                <input type="tel" placeholder="Votre téléphone" required>
+                <input type="date" placeholder="Date de réservation" required>
+                <select required>
+                    <option value="">Nombre de personnes</option>
+                    <option value="2">2 personnes</option>
+                    <option value="3">3 personnes</option>
+                    <option value="4">4 personnes</option>
+                    <option value="5">5 personnes</option>
+                    <option value="6+">6 personnes ou plus</option>
+                </select>
+                <textarea placeholder="Message spécial"></textarea>
+                <button type="submit" class="btn">Réserver une table</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Zaafran</h3>
+                <p>15 Rue de la Médina</p>
+                <p>75001 Paris</p>
+                <p>Tél: 01 23 45 67 89</p>
+            </div>
+            <div class="footer-hours">
+                <h3>Horaires</h3>
+                <p>Mardi - Dimanche</p>
+                <p>12h00 - 14h30</p>
+                <p>19h00 - 22h30</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tripadvisor"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
