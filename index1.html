@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maroc Voyages - Découvrez la Magie du Maroc</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-compass"></i>
+                <span>Maroc Voyages</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Accueil</a>
+                <a href="#destinations">Destinations</a>
+                <a href="#circuits">Circuits</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Découvrez la Magie du Maroc</h1>
+            <p>Des médinas anciennes aux dunes dorées, vivez une expérience inoubliable</p>
+            <a href="#destinations" class="cta-button">Explorer Nos Voyages</a>
+        </div>
+    </section>
+
+    <section id="destinations" class="destinations">
+        <h2>Destinations Populaires</h2>
+        <div class="destinations-flex">
+            <div class="destination-card">
+                <div class="destination-image">
+                    <img src="https://images.unsplash.com/photo-1597212618440-806262de4f6b?auto=format&fit=crop&q=80"
+                        alt="Marrakech">
+                </div>
+                <div class="destination-info">
+                    <h3>Marrakech</h3>
+                    <p>La ville rouge avec ses souks animés et sa place Jemaa el-Fna légendaire</p>
+                </div>
+            </div>
+            <div class="destination-card">
+                <div class="destination-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dnL6EP-oZhR-2fypJFjIEEp3BsVtlzTwQw&s"
+                        alt="Sahara">
+                </div>
+                <div class="destination-info">
+                    <h3>Sahara</h3>
+                    <p>Vivez l'aventure dans les dunes dorées du désert marocain</p>
+                </div>
+            </div>
+            <div class="destination-card">
+                <div class="destination-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa-u6Sb-UHJprw2lXBjKQkq4TPei3urttAFA&s"
+                        alt="Chefchaouen">
+                </div>
+                <div class="destination-info">
+                    <h3>Chefchaouen</h3>
+                    <p>La ville bleue nichée dans les montagnes du Rif</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="circuits" class="circuits">
+        <h2>Nos Circuits</h2>
+        <div class="circuits-container">
+            <div class="circuit-card">
+                <h3>Circuit Villes Impériales</h3>
+                <p class="circuit-description">8 jours à travers Rabat, Meknès, Fès et Marrakech</p>
+                <div class="circuit-details">
+                    <p>Découvrez l'histoire millénaire du Maroc à travers ses villes impériales.</p>
+                    <a href="#contact">Voir les détails →</a>
+                </div>
+            </div>
+            <div class="circuit-card">
+                <h3>Aventure Saharienne</h3>
+                <p class="circuit-description">5 jours dans le désert du Sahara</p>
+                <div class="circuit-details">
+                    <p>Nuits sous les étoiles, randonnée à dos de chameau, et camping dans les dunes.</p>
+                    <a href="#contact">Voir les détails →</a>
+                </div>
+            </div>
+            <div class="circuit-card">
+                <h3>Route des Kasbahs</h3>
+                <p class="circuit-description">6 jours le long de la route des mille kasbahs</p>
+                <div class="circuit-details">
+                    <p>Explorez les anciennes forteresses et oasis du sud marocain.</p>
+                    <a href="#contact">Voir les détails →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contactez-nous</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="destination">Destination d'intérêt</label>
+                <select id="destination">
+                    <option>Marrakech</option>
+                    <option>Sahara</option>
+                    <option>Chefchaouen</option>
+                    <option>Circuit Villes Impériales</option>
+                    <option>Autre</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Envoyer</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Maroc Voyages</h3>
+                <p>Votre passerelle vers le Maroc authentique</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Maroc Voyages. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
